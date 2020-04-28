@@ -1,0 +1,29 @@
+{
+  "name": "react-storybook-father",
+  "version": "1.0.0",
+  "description": "Storybook of react, build by father",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpr1g/react-storybook-father.git"
+  },
+  "keywords": [
+    "react",
+    "storybook",
+    "father"
+  ],
+  "author": "zpr1g <yuns.xie@qq.com> (https://theprimone.top/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zpr1g/react-storybook-father/issues"
+  },
+  "homepage": "https://github.com/zpr1g/react-storybook-father#readme",
+  "devDependencies": {
+    "father": "^2.29.3"
+  },
+  "dependencies": {}
+}
