@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
     "build": "father build"
   },
   "repository": {
@@ -23,7 +24,16 @@
   },
   "homepage": "https://github.com/zpr1g/react-storybook-father#readme",
   "devDependencies": {
-    "father": "^2.29.3"
+    "@babel/core": "^7.9.6",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "father": "^2.29.3",
+    "fork-ts-checker-webpack-plugin": "^4.1.3",
+    "ts-loader": "^7.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
