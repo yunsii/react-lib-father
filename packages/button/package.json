@@ -1,0 +1,14 @@
+{
+  "name": "button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build:declaration": "tsc --declarationDir ./lib && tsc --declarationDir ./es && webpack-cli",
+    "build:umd": "webpack-cli"
+  },
+  "author": "",
+  "license": "ISC"
+}

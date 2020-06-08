@@ -6,7 +6,7 @@ module.exports = merge(common, {
   entry: './src/index.ts',
   output: {
     filename: 'index.js',
-    library: 'world',
+    library: 'Button',
     path: path.resolve(__dirname, './dist'),
   },
 });

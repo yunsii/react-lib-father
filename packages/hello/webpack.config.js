@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = merge(common, {
   entry: './src/index.ts',
   output: {
-    filename: 'hello.js',
+    filename: 'index.js',
     library: 'hello',
     path: path.resolve(__dirname, './dist'),
   },
