@@ -6,7 +6,6 @@
     "dev": "dumi dev",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
-    "storybook": "start-storybook",
     "build:umd": "lerna run build:umd",
     "build": "node ./scripts/clean-old-build.js && father build && npm run build:umd && node ./scripts/build-wind-up.js",
     "build:doc": "dumi build",
