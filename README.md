@@ -1,3 +1,3 @@
-# react-storybook-father
+# lib-father
 
-Storybook for react, build by father
+quick library of react, build by father

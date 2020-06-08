@@ -1,36 +1,38 @@
 {
-  "name": "react-storybook-father",
-  "version": "1.0.0",
-  "description": "Storybook of react, build by father",
-  "main": "index.js",
+  "name": "lib-father",
   "scripts": {
+    "init": "rm -rf node_modules && cnpm i && npm run clean && npm run bootstrap && npm run build",
+    "start": "npm run dev",
+    "dev": "dumi dev",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean --yes",
     "storybook": "start-storybook",
     "build:umd": "lerna run build:umd",
-    "build": "node ./scripts/clean-old-build.js && father build && npm run build:umd && node ./scripts/build-wind-up.js"
+    "build": "node ./scripts/clean-old-build.js && father build && npm run build:umd && node ./scripts/build-wind-up.js",
+    "build:doc": "dumi build",
+    "pub": "lerna publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zpr1g/react-storybook-father.git"
+    "url": "git+https://github.com/zpr1g/lib-father.git"
   },
   "keywords": [
     "react",
-    "storybook",
     "father"
   ],
   "author": "zpr1g <yuns.xie@qq.com> (https://theprimone.top/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zpr1g/react-storybook-father/issues"
+    "url": "https://github.com/zpr1g/lib-father/issues"
   },
-  "homepage": "https://github.com/zpr1g/react-storybook-father#readme",
+  "homepage": "https://github.com/zpr1g/lib-father#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
-    "@storybook/preset-typescript": "^3.0.0",
-    "@storybook/react": "^5.3.18",
     "babel-loader": "^8.1.0",
     "babel-plugin-import": "^1.13.0",
     "babel-plugin-transform-async-to-promises": "^0.8.15",
     "del": "^5.1.0",
+    "dumi": "^1.0.31",
     "father": "^2.29.3",
     "fork-ts-checker-webpack-plugin": "^4.1.3",
     "lerna": "^3.22.0",
