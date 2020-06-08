@@ -1,3 +1,3 @@
-# lib-father
+# react-lib-father
 
 quick library of react, build by father

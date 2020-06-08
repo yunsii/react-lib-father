@@ -1,5 +1,5 @@
 {
-  "name": "lib-father",
+  "name": "react-lib-father",
   "scripts": {
     "init": "rm -rf node_modules && cnpm i && npm run clean && npm run bootstrap && npm run build",
     "start": "npm run dev",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zpr1g/lib-father.git"
+    "url": "git+https://github.com/zpr1g/react-lib-father.git"
   },
   "keywords": [
     "react",
@@ -23,9 +23,9 @@
   "author": "zpr1g <yuns.xie@qq.com> (https://theprimone.top/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zpr1g/lib-father/issues"
+    "url": "https://github.com/zpr1g/react-lib-father/issues"
   },
-  "homepage": "https://github.com/zpr1g/lib-father#readme",
+  "homepage": "https://github.com/zpr1g/react-lib-father#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "babel-loader": "^8.1.0",
