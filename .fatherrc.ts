@@ -1,5 +1,6 @@
 export default {
-  cjs: 'rollup',
-  esm: 'rollup',
+  cjs: 'babel',
+  esm: 'babel',
+  disableTypeCheck: true,
   // runtimeHelpers: true,
 };

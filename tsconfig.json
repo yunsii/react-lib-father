@@ -1,25 +1,20 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "lib": ["es5", "es6", "es7", "es2017", "dom"],
-    "jsx": "react",
+    "target": "esnext",
+    "module": "esnext",
     "moduleResolution": "node",
-    "rootDirs": ["src"],
-    "outDir": "dist",
-    "removeComments": false,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitAny": false,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true,
-    "declaration": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "strict": true,
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "sourceMap": false,
-    "emitDecoratorMetadata": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "packages", ".storybook"]
+    "skipLibCheck": true,
+    "declaration": true,
+    "emitDeclarationOnly": true
+  }
 }
