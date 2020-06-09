@@ -1,7 +1,3 @@
-import React from 'react';
-
-const Button = () => {
-  return <button>Button</button>;
-};
+import { Button } from 'antd';
 
 export default Button;

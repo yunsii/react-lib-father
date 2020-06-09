@@ -1,6 +1,7 @@
 export default {
   cjs: 'babel',
-  esm: 'babel',
+  esm: { type: 'babel', importLibToEs: true },
   disableTypeCheck: true,
+  extraBabelPlugins: [['import', { libraryName: 'antd', style: true }]],
   // runtimeHelpers: true,
 };

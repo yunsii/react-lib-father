@@ -12,7 +12,7 @@ export default () => {
   return (
     <div>
       <h2>First Demo</h2>
-      <Button />
+      <Button>Antd Button</Button>
     </div>
   );
 };
