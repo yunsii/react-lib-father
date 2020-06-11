@@ -6,8 +6,9 @@
     "dev": "dumi dev",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
+    "build:declaration": "lerna run build:declaration",
     "build:umd": "lerna run build:umd",
-    "build": "node ./scripts/clean-old-build.js && father build && npm run build:umd && node ./scripts/build-wind-up.js",
+    "build": "node ./scripts/clean-old-build.js && father build && npm run build:declaration && npm run build:umd && node ./scripts/build-wind-up.js",
     "build:doc": "dumi build",
     "pub": "lerna publish"
   },
