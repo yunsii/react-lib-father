@@ -1,5 +1,5 @@
 {
-  "name": "world",
+  "name": "components",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
@@ -10,5 +10,8 @@
     "build:umd": "webpack-cli"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.3.3"
+  }
 }
