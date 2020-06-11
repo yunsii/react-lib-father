@@ -1,5 +1,5 @@
 export default {
-  title: 'React-Lib-Father',
+  title: 'react lib father',
   mode: 'site',
   extraBabelPlugins: [
     [
