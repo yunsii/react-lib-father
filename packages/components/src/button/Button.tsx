@@ -8,7 +8,7 @@ export default (props: ButtonProps) => {
   const { children, ...rest } = props;
   return (
     <Button {...rest}>
-      <span className='prefix'>Prefix</span>&nbsp;
+      <span className='prefix'>😀</span>&nbsp;
       {children}
     </Button>
   );
