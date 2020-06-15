@@ -12,3 +12,7 @@ group:
 # Button
 
 一个随意的 Button 组件。
+
+## 代码演示
+
+<code src='./demo/demo1.tsx' />
