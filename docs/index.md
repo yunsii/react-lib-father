@@ -23,8 +23,10 @@ footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by [du
 
 ```bash
 // 安装依赖
-npm i {your-lib-name} --save
+npm i components --save
+npm i utils --save
 
 // 使用
-import { component } from '{your-lib-name}';
+import { Button } from 'components';
+import { Logger } from 'utils';
 ```
