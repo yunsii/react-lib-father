@@ -10,6 +10,15 @@ export default {
         style: 'css',
       },
     ],
+    [
+      'import',
+      {
+        libraryName: 'components',
+        libraryDirectory: 'es',
+        style: true,
+      },
+      'components',
+    ],
   ],
   base: '/react-lib-father',
   publicPath: '/react-lib-father/',
