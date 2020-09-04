@@ -6,8 +6,9 @@
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build:declaration": "tsc --declarationDir ./lib && tsc --declarationDir ./es && webpack-cli",
-    "build:umd": "webpack-cli"
+    "webpack": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack-cli",
+    "build:declaration": "tsc --declarationDir ./lib && tsc --declarationDir ./es && npm run webpack",
+    "build:umd": "npm run webpack"
   },
   "author": "",
   "license": "ISC",

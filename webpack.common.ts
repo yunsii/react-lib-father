@@ -1,6 +1,6 @@
-// ref: https://github.com/alibaba/hooks/blob/master/webpack.common.js
+import { Configuration } from 'webpack';
 
-module.exports = {
+const config: Configuration = {
   output: {
     libraryTarget: 'umd',
     globalObject: 'this',
@@ -89,3 +89,5 @@ module.exports = {
     },
   ],
 };
+
+export default config;
