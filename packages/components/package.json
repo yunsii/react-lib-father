@@ -6,7 +6,7 @@
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "webpack": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack-cli",
+    "webpack": "cross-env TS_NODE_PROJECT=\"tsconfig.tsnode.json\" webpack-cli",
     "build:declaration": "tsc --declarationDir ./lib && tsc --declarationDir ./es && npm run webpack",
     "build:umd": "npm run webpack"
   },
