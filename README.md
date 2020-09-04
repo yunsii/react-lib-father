@@ -8,4 +8,4 @@ Quick library of react, build by father.
 
 ## 问题总结
 
-- 使用 webpack.config.ts [link](https://webpack.js.org/configuration/configuration-languages/#typescript)
+- 使用 webpack.config.ts [[link]](https://webpack.js.org/configuration/configuration-languages/#typescript)
