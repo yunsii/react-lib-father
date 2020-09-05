@@ -11,6 +11,7 @@ Quick library of react, build by father.
 - [father](https://github.com/umijs/father/tree/2.x) 编译工具
 - [dumi](https://github.com/umijs/dumi) 文档工具
 - [ahooks（原名 umi-hooks）](https://github.com/alibaba/hooks/tree/1.x) 借鉴其打包方式
+- [ant-design-pro](https://github.com/ant-design/ant-design-pro) eslint prettier 等代码规范化配置
 
 ## 问题总结
 
